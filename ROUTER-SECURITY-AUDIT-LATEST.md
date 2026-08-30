@@ -20,13 +20,12 @@
 | Control | State | Assessment |
 |---|---|---|
 | DNS resolvers | observed (isp_default) | OK |
-| Firewall | unknown | NO DATA |
-| Endpoint protection | unknown | NO DATA |
-| Remote desktop | unknown | NO DATA |
-| Remote shell | unknown | NO DATA |
+| Firewall | enabled | OK |
+| Endpoint protection | enabled | OK |
+| Remote desktop | closed | OK |
+| Remote shell | closed | OK |
 | Remote-access services on LAN | none_detected | OK |
 
-> 4 control(s) report **NO DATA**. No collector has produced state for them — this is a coverage gap, not a clean result.
 
 ---
 
@@ -64,8 +63,6 @@ No alerts. No control changed since baseline, and no remote-access service was d
 - Full firewall rule audit
 - Check IoT devices for end-of-life status
 
-**Coverage gap**
-- Run `security-watch.js` so firewall, endpoint protection, remote desktop, and remote shell stop reporting NO DATA
 
 ---
 

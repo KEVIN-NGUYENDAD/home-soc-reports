@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
   "baseline_id": "BL-2026-08-22",
-  "generated_at": "2026-08-30T21:56:18.812Z",
-  "source_scan_at": "2026-08-30T21:55:53.899Z",
+  "generated_at": "2026-08-30T22:10:26.112Z",
+  "source_scan_at": "2026-08-30T22:10:01.739Z",
   "data_age_hours": 0,
   "stale": false,
   "sanitized": true,
   "coverage": {
     "controls_reported": 6,
-    "controls_unknown": 4,
-    "note": "Controls marked unknown have no collector output. security-watch.js has not produced state.json."
+    "controls_unknown": 0,
+    "note": "All controls reported by a collector."
   },
   "controls": {
     "dns": {
@@ -18,19 +18,19 @@
       "provider_class": "isp_default"
     },
     "firewall": {
-      "state": "unknown",
+      "state": "enabled",
       "changed_since_baseline": false
     },
     "defender": {
-      "state": "unknown",
+      "state": "enabled",
       "changed_since_baseline": false
     },
     "rdp": {
-      "state": "unknown",
+      "state": "closed",
       "changed_since_baseline": false
     },
     "ssh": {
-      "state": "unknown",
+      "state": "closed",
       "changed_since_baseline": false
     },
     "remote_access_services": {
