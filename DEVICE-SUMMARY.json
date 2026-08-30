@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-30T21:44:58.079Z",
+  "source_scan_at": "2026-08-30T21:35:41.755Z",
+  "sanitized": true,
+  "totals": {
+    "devices_total": 2,
+    "devices_identified": 2,
+    "devices_unidentified": 0,
+    "total_risks": 0
+  },
+  "devices": [
+    {
+      "id": "gateway-01",
+      "label": "Gateway",
+      "category": "network",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [
+        "message-broker",
+        "web-ui"
+      ],
+      "open_service_count": 3,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-01",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [
+        "vendor-service",
+        "video-stream",
+        "web-ui"
+      ],
+      "open_service_count": 5,
+      "risk_count": 0
+    }
+  ]
+}
