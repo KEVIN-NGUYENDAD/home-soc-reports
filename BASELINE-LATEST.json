@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "baseline_id": "BL-2026-08-22",
-  "generated_at": "2026-08-30T21:44:58.080Z",
-  "source_scan_at": "2026-08-30T21:35:41.755Z",
-  "data_age_hours": 0.2,
+  "generated_at": "2026-08-30T21:56:18.812Z",
+  "source_scan_at": "2026-08-30T21:55:53.899Z",
+  "data_age_hours": 0,
   "stale": false,
   "sanitized": true,
   "coverage": {
