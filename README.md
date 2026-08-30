@@ -39,11 +39,11 @@ This removes the need for the reader to glob or sort by timestamp.
 
 | Instead of | Publish |
 |---|---|
-| `192.168.0.233` | `link: wifi-2.4ghz` |
-| `9c:b1:50:xx:xx:xx` | `id: desktop-01` |
-| `ARRIS CGM4331COM v23.2` | `firmware: current` |
-| `Reolink RLC-810A` | `label: Indoor Camera`, `category: iot` |
-| `port 1883 open` | `local message-broker port, LAN-only` |
+| a private LAN address | `link: lan` |
+| a hardware address | `id: camera-01` |
+| a make, model, firmware string | `firmware: current` |
+| a vendor product name | `label: Camera`, `category: iot` |
+| a specific open port number | a service class such as `message-broker` |
 
 Rule of thumb: publish **states and verdicts**, never **identifiers and addresses**.
 A reader should be able to tell whether the network is healthy, and unable to tell
