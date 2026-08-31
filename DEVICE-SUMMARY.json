@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T07:19:38.618Z",
+  "generated_at": "2026-08-31T18:40:17.692Z",
   "source_scan_at": "2026-08-31T07:19:09.473Z",
   "sanitized": true,
   "totals": {
@@ -39,5 +39,6 @@
       "open_service_count": 5,
       "risk_count": 0
     }
-  ]
+  ],
+  "publish_id": "d55dac3fb1e7f8f8"
 }
