@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-31T18:40:17.692Z",
-  "source_scan_at": "2026-08-31T07:19:09.473Z",
+  "generated_at": "2026-09-01T04:09:34.692Z",
+  "source_scan_at": "2026-09-01T04:08:54.033Z",
   "sanitized": true,
   "totals": {
-    "devices_total": 2,
-    "devices_identified": 2,
+    "devices_total": 3,
+    "devices_identified": 3,
     "devices_unidentified": 0,
     "total_risks": 0
   },
@@ -38,7 +38,18 @@
       ],
       "open_service_count": 5,
       "risk_count": 0
+    },
+    {
+      "id": "computer-01",
+      "label": "Computer",
+      "category": "computer",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
     }
   ],
-  "publish_id": "d55dac3fb1e7f8f8"
+  "publish_id": "dc3b932c3b6ead0a"
 }
