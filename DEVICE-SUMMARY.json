@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T04:09:34.692Z",
-  "source_scan_at": "2026-09-01T04:08:54.033Z",
+  "generated_at": "2026-09-02T21:06:58.430Z",
+  "source_scan_at": "2026-09-02T21:06:18.225Z",
   "sanitized": true,
   "totals": {
     "devices_total": 3,
@@ -51,5 +51,5 @@
       "risk_count": 0
     }
   ],
-  "publish_id": "dc3b932c3b6ead0a"
+  "publish_id": "acfc7eecba6d0412"
 }
