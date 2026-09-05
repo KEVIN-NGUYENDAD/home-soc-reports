@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "baseline_id": "BL-2026-08-22",
-  "generated_at": "2026-09-04T02:53:07.000Z",
-  "source_scan_at": "2026-09-04T02:52:27.237Z",
+  "generated_at": "2026-09-05T02:45:46.361Z",
+  "source_scan_at": "2026-09-05T02:45:10.277Z",
   "data_age_hours": 0,
   "stale": false,
   "sanitized": true,
@@ -41,5 +41,5 @@
   },
   "alerts": [],
   "risk_level": "GREEN",
-  "publish_id": "2764117c0d8a2c07"
+  "publish_id": "2e16c41df437ef89"
 }
