@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T02:45:46.360Z",
-  "source_scan_at": "2026-09-05T02:45:10.277Z",
+  "generated_at": "2026-09-06T02:48:31.587Z",
+  "source_scan_at": "2026-09-06T02:45:07.498Z",
   "sanitized": true,
   "totals": {
-    "devices_total": 3,
-    "devices_identified": 3,
-    "devices_unidentified": 0,
+    "devices_total": 22,
+    "devices_identified": 16,
+    "devices_unidentified": 6,
     "total_risks": 0
   },
   "devices": [
@@ -32,11 +32,217 @@
       "status": "online",
       "identified": true,
       "services": [
+        "vendor-service"
+      ],
+      "open_service_count": 1,
+      "risk_count": 0
+    },
+    {
+      "id": "device-01",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "device-02",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [
+        "vendor-service"
+      ],
+      "open_service_count": 1,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-02",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-03",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-04",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-05",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-06",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "mobile-01",
+      "label": "Mobile Device",
+      "category": "mobile",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "device-03",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-07",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "device-04",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [
+        "vendor-service"
+      ],
+      "open_service_count": 1,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-08",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-09",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [
         "vendor-service",
         "video-stream",
         "web-ui"
       ],
       "open_service_count": 5,
+      "risk_count": 0
+    },
+    {
+      "id": "camera-10",
+      "label": "Camera",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "device-05",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [
+        "vendor-service"
+      ],
+      "open_service_count": 1,
+      "risk_count": 0
+    },
+    {
+      "id": "speaker-01",
+      "label": "Smart Speaker",
+      "category": "iot",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "mobile-02",
+      "label": "Mobile Device",
+      "category": "mobile",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
+      "risk_count": 0
+    },
+    {
+      "id": "mobile-03",
+      "label": "Mobile Device",
+      "category": "mobile",
+      "link": "lan",
+      "status": "online",
+      "identified": true,
+      "services": [],
+      "open_service_count": 0,
       "risk_count": 0
     },
     {
@@ -49,7 +255,20 @@
       "services": [],
       "open_service_count": 0,
       "risk_count": 0
+    },
+    {
+      "id": "device-06",
+      "label": "Unidentified Device",
+      "category": "unknown",
+      "link": "lan",
+      "status": "online",
+      "identified": false,
+      "services": [
+        "web-ui"
+      ],
+      "open_service_count": 2,
+      "risk_count": 0
     }
   ],
-  "publish_id": "2e16c41df437ef89"
+  "publish_id": "7dbaecfd064a4c5e"
 }
