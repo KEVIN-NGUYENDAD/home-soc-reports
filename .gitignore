@@ -1,9 +1,32 @@
-# Nothing unsanitized may ever land here.
-# Deny by default; the three LATEST files are force-added by the publish script.
+# Deny by default - only allow whitelisted documentation and incident data
 
 *
 !.gitignore
+!.github/
+
+# Whitelisted documentation files
 !README.md
+!CLAUDE.md
+!PROJECT_STATE.md
+!ROADMAP.md
+
+# Incident management structure
+!incidents/
+!incidents/**/*.md
+!daily-reports/
+!daily-reports/**/*.md
+!playbooks/
+!playbooks/**/*.md
+!alert-rules/
+!alert-rules/**/*.yaml
+!alert-rules/**/*.yml
+!statistics/
+!statistics/**/*.md
+!statistics/**/*.csv
+!archive/
+!archive/**/*.md
+
+# Original publication files (legacy - deprecated in favor of incidents/)
 !ROUTER-SECURITY-AUDIT-LATEST.md
 !BASELINE-LATEST.json
 !DEVICE-SUMMARY.json
