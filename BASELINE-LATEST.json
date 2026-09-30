@@ -1,45 +1,47 @@
-{
-  "schema_version": "1.0",
-  "baseline_id": "BL-2026-08-22",
-  "generated_at": "2026-09-06T02:48:31.588Z",
-  "source_scan_at": "2026-09-06T02:45:07.498Z",
-  "data_age_hours": 0.1,
-  "stale": false,
-  "sanitized": true,
-  "coverage": {
-    "controls_reported": 6,
-    "controls_unknown": 0,
-    "note": "All controls reported by a collector."
-  },
-  "controls": {
-    "dns": {
-      "state": "observed",
-      "changed_since_baseline": false,
-      "provider_class": "isp_default"
-    },
-    "firewall": {
-      "state": "enabled",
-      "changed_since_baseline": false
-    },
-    "defender": {
-      "state": "enabled",
-      "changed_since_baseline": false
-    },
-    "rdp": {
-      "state": "closed",
-      "changed_since_baseline": false
-    },
-    "ssh": {
-      "state": "closed",
-      "changed_since_baseline": false
-    },
-    "remote_access_services": {
-      "state": "none_detected",
-      "changed_since_baseline": false,
-      "affected_device_count": 0
-    }
-  },
-  "alerts": [],
-  "risk_level": "GREEN",
-  "publish_id": "7dbaecfd064a4c5e"
+﻿{
+    "schema_version":  "1.0",
+    "baseline_id":  "BL-2026-08-22",
+    "source_scan_at":  "2026-09-06T02:45:07.498Z",
+    "sanitized":  true,
+    "coverage":  {
+                     "controls_reported":  6,
+                     "controls_unknown":  0,
+                     "note":  "All controls reported by a collector."
+                 },
+    "controls":  {
+                     "dns":  {
+                                 "state":  "observed",
+                                 "changed_since_baseline":  false,
+                                 "provider_class":  "isp_default"
+                             },
+                     "firewall":  {
+                                      "state":  "enabled",
+                                      "changed_since_baseline":  false
+                                  },
+                     "defender":  {
+                                      "state":  "enabled",
+                                      "changed_since_baseline":  false
+                                  },
+                     "rdp":  {
+                                 "state":  "closed",
+                                 "changed_since_baseline":  false
+                             },
+                     "ssh":  {
+                                 "state":  "closed",
+                                 "changed_since_baseline":  false
+                             },
+                     "remote_access_services":  {
+                                                    "state":  "none_detected",
+                                                    "changed_since_baseline":  false,
+                                                    "affected_device_count":  0
+                                                }
+                 },
+    "alerts":  [
+
+               ],
+    "risk_level":  "GREEN",
+    "generated_at":  "2026-09-30T10:24:31-07:00",
+    "publish_id":  "a76a3b4d42ed4126",
+    "stale":  false,
+    "data_age_hours":  0.1
 }
