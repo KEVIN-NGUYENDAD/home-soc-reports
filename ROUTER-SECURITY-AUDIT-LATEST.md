@@ -1,8 +1,8 @@
 # Home Security Audit Report
-- **publish_id**: `4deb64a58d1f4c91`
-- **published_at**: `2026-11-15T01:52:51.830405-07:00`
-- **generated_at**: `2026-11-15T01:52:51.830405-07:00`
-- **source_scan_at**: `2026-11-15T01:52:50.070847-07:00`
+- **publish_id**: `ad46164526fa4459`
+- **published_at**: `2026-11-15T14:12:34.263516-07:00`
+- **generated_at**: `2026-11-15T14:12:34.263516-07:00`
+- **source_scan_at**: `2026-11-15T14:12:27.195750-07:00`
 - **data_age_hours**: `0.0`
 - **stale**: `false`
 - **overall_status**: `GREEN`
