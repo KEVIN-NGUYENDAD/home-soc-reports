@@ -1,7 +1,7 @@
 # Home Security Audit Report
-- **publish_id**: `afe350c8123246b0`
-- **published_at**: `2026-11-15T14:17:28.803907-07:00`
-- **generated_at**: `2026-11-15T14:17:28.803907-07:00`
+- **publish_id**: `b787dccefa054858`
+- **published_at**: `2026-11-15T14:17:33.490177-07:00`
+- **generated_at**: `2026-11-15T14:17:33.490177-07:00`
 - **source_scan_at**: `2026-11-15T14:16:51.923863-07:00`
 - **data_age_hours**: `0.01`
 - **stale**: `false`
